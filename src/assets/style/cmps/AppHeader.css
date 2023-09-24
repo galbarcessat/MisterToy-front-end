@@ -1,0 +1,33 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: rgb(0, 0, 0);
+    margin-block-end: 1em;
+}
+
+.header-nav-links {
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+}
+
+.logo-container {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.toy-logo-txt {
+    background: linear-gradient(45deg, #ff0000, #ff9900, #ffcc00, #33cc33, #3399ff, #9933ff, #ff33cc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+    /* border: 1px solid bac; */
+
+}
+
+.toy-logo {
+    max-width: 5rem;
+}

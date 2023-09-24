@@ -14,6 +14,7 @@ p {
 a {
   text-decoration: none;
   color: unset;
+  margin-inline: 0.5em;
 }
 
 
@@ -32,5 +33,18 @@ object {
 }
 
 a.active {
-  text-decoration: overline;
+  font-weight: 700;
+}
+
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+
+}
+
+.home-logo {
+  width: 600px;
 }

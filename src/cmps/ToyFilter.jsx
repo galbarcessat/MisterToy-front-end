@@ -58,14 +58,13 @@ export function ToyFilter({ filterBy, onSetFilterBy }) {
 
     const handleLabelChange = (selectedLabels) => {
         setFilterByToEdit((prevToyToEdit) => ({
-          ...prevToyToEdit,
-          labels: selectedLabels.map((option) => option.value),
+            ...prevToyToEdit,
+            labels: selectedLabels.map((option) => option.value),
         }));
-      };
+    };
 
     return (
         <section className="toy-filter">
-            <form >
                 <label htmlFor="txt">Search :</label>
                 <input type="text"
                     id="txt"
@@ -97,8 +96,6 @@ export function ToyFilter({ filterBy, onSetFilterBy }) {
                     onChange={handleLabelChange}
                     placeholder="Select labels..."
                 />
-            </form>
-
         </section>
     )
 }
